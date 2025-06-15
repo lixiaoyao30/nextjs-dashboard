@@ -1,0 +1,28 @@
+.shape{
+    /* 创建个三角形 */
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid red;
+    border-right: 100px solid transparent;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+
+.statusDefault {
+    background-color: #e2e8f0;
+    color: #1e293b;
+    border: 1px solid #cbd5e1;
+    font-weight: normal;
+  }
+  
+  .statusSuccess {
+    background-color: #10b981;
+    color: white;
+    border: 1px solid #059669;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
